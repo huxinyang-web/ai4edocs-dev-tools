@@ -323,7 +323,7 @@ git图形化软件的好处就是，把以上对git的操作图形化。
 
 ![图 4](/assets/image/91Tools/SSH_Git-10_12_40.png)  
 
-更多操作见[vscode中使用git](../Tools/vscode_git.md)
+更多操作见[vscode中使用git](vscode_git.md)
 
 ### gitkraken示例
 
