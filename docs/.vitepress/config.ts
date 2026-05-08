@@ -26,7 +26,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Dev-Tools', icon: 'book', link: '/docs/' },
+      { text: 'Dev-Tools', icon: 'book', link: '/' },
       { text: 'Cs-Basics', link: 'https://huxinyang-web.github.io/ai4edocs-cs-basics/' },
       { text: 'Modeling', link: 'https://huxinyang-web.github.io/ai4edocs-modeling/' },
       { text: 'Optimization', link: 'https://huxinyang-web.github.io/ai4edocs-optimization/' },
@@ -39,56 +39,56 @@ export default defineConfig({
           text: 'CS 进阶',
           collapsed: false,
           items: [
-            { text: '简介', link: '/docs/03CSAdv/1-过程抽象.md' },
-            { text: '过程抽象', link: '/docs/03CSAdv/1-过程抽象.md' },
-            { text: '数据抽象', link: '/docs/03CSAdv/2-数据抽象.md' },
-            { text: '再说说递归', link: '/docs/03CSAdv/3-再说说递归.md' },
-            { text: '从符号到模型', link: '/docs/03CSAdv/4-从符号到模型.md' },
-            { text: '抽象语法树', link: '/docs/03CSAdv/5-抽象语法树.md' },
-            { text: '代码生成', link: '/docs/03CSAdv/6-代码生成.md' },
-            { text: '领域特定语言', link: '/docs/03CSAdv/7-领域特定语言.md' },
-            { text: '写个库还是创个语言', link: '/docs/03CSAdv/8-写个库还是创个语言.md' },
-            { text: 'Ascend 等解构', link: '/docs/03CSAdv/9-Ascend 等解构.md' },
-            { text: 'OpenFoam 解构', link: '/docs/03CSAdv/91-OpenFoam 解构.md' }
+            { text: '简介', link: '/03CSAdv/1-过程抽象.md' },
+            { text: '过程抽象', link: '/03CSAdv/1-过程抽象.md' },
+            { text: '数据抽象', link: '/03CSAdv/2-数据抽象.md' },
+            { text: '再说说递归', link: '/03CSAdv/3-再说说递归.md' },
+            { text: '从符号到模型', link: '/03CSAdv/4-从符号到模型.md' },
+            { text: '抽象语法树', link: '/03CSAdv/5-抽象语法树.md' },
+            { text: '代码生成', link: '/03CSAdv/6-代码生成.md' },
+            { text: '领域特定语言', link: '/03CSAdv/7-领域特定语言.md' },
+            { text: '写个库还是创个语言', link: '/03CSAdv/8-写个库还是创个语言.md' },
+            { text: 'Ascend 等解构', link: '/03CSAdv/9-Ascend 等解构.md' },
+            { text: 'OpenFoam 解构', link: '/03CSAdv/91-OpenFoam 解构.md' }
           ]
         },
         {
           text: '工具',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/91Tools/vscode_git.md' },
-            { text: 'VSCode 和 Git', link: '/docs/91Tools/vscode_git.md' },
-            { text: 'CoolProp', link: '/docs/91Tools/CoolProp.md' },
-            { text: 'CSV_jl_use', link: '/docs/91Tools/CSV_jl_use.md' },
-            { text: 'ssh-git 实操', link: '/docs/91Tools/3-ssh-git 实操.md' }
+            { text: '简介', link: '/91Tools/vscode_git.md' },
+            { text: 'VSCode 和 Git', link: '/91Tools/vscode_git.md' },
+            { text: 'CoolProp', link: '/91Tools/CoolProp.md' },
+            { text: 'CSV_jl_use', link: '/91Tools/CSV_jl_use.md' },
+            { text: 'ssh-git 实操', link: '/91Tools/3-ssh-git 实操.md' }
           ]
         },
         {
           text: '工作流',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/92Workflow/julia 的安装.md' },
-            { text: 'julia 的安装', link: '/docs/92Workflow/julia 的安装.md' },
-            { text: 'REPL-of-Julia', link: '/docs/92Workflow/REPL-of-Julia.md' },
-            { text: 'julia_change_pkgserve', link: '/docs/92Workflow/julia_change_pkgserve.md' },
-            { text: 'gitworkflow', link: '/docs/92Workflow/gitworkflow.md' },
-            { text: '1-thinkaboutstudy', link: '/docs/92Workflow/1-thinkaboutstudy.md' },
-            { text: 'vscodePlugin', link: '/docs/92Workflow/vscodePlugin.md' },
-            { text: 'DocStructure', link: '/docs/92Workflow/DocStructure.md' }
+            { text: '简介', link: '/92Workflow/julia 的安装.md' },
+            { text: 'julia 的安装', link: '/92Workflow/julia 的安装.md' },
+            { text: 'REPL-of-Julia', link: '/92Workflow/REPL-of-Julia.md' },
+            { text: 'julia_change_pkgserve', link: '/92Workflow/julia_change_pkgserve.md' },
+            { text: 'gitworkflow', link: '/92Workflow/gitworkflow.md' },
+            { text: '1-thinkaboutstudy', link: '/92Workflow/1-thinkaboutstudy.md' },
+            { text: 'vscodePlugin', link: '/92Workflow/vscodePlugin.md' },
+            { text: 'DocStructure', link: '/92Workflow/DocStructure.md' }
           ]
         },
         {
           text: 'go-zero 教程',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/tutorial/01-docker-compose 环境准备.md' },
-            { text: 'docker-compose 环境准备', link: '/docs/tutorial/01-docker-compose 环境准备.md' },
-            { text: 'emqx 消息服务器准备', link: '/docs/tutorial/02-emqx 消息服务器准备.md' },
-            { text: 'mysql 数据库准备', link: '/docs/tutorial/03-mysql 数据库准备.md' },
-            { text: 'go-zero 环境准备', link: '/docs/tutorial/04-go-zero 环境准备.md' },
-            { text: 'gateway 设置', link: '/docs/tutorial/05-gateway 设置.md' },
-            { text: 'goctl 生成 api 服务', link: '/docs/tutorial/06-goctl 生成 api 服务.md' },
-            { text: 'goctl 处理数据库模型', link: '/docs/tutorial/07-goctl 处理数据库模型.md' }
+            { text: '简介', link: '/tutorial/01-docker-compose 环境准备.md' },
+            { text: 'docker-compose 环境准备', link: '/tutorial/01-docker-compose 环境准备.md' },
+            { text: 'emqx 消息服务器准备', link: '/tutorial/02-emqx 消息服务器准备.md' },
+            { text: 'mysql 数据库准备', link: '/tutorial/03-mysql 数据库准备.md' },
+            { text: 'go-zero 环境准备', link: '/tutorial/04-go-zero 环境准备.md' },
+            { text: 'gateway 设置', link: '/tutorial/05-gateway 设置.md' },
+            { text: 'goctl 生成 api 服务', link: '/tutorial/06-goctl 生成 api 服务.md' },
+            { text: 'goctl 处理数据库模型', link: '/tutorial/07-goctl 处理数据库模型.md' }
           ]
         }
       ]
