@@ -48,8 +48,8 @@ export default defineConfig({
             { text: '代码生成', link: '/03CSAdv/6-代码生成.md' },
             { text: '领域特定语言', link: '/03CSAdv/7-领域特定语言.md' },
             { text: '写个库还是创个语言', link: '/03CSAdv/8-写个库还是创个语言.md' },
-            { text: 'Ascend 等解构', link: '/03CSAdv/9-Ascend 等解构.md' },
-            { text: 'OpenFoam 解构', link: '/03CSAdv/91-OpenFoam 解构.md' }
+            { text: 'Ascend 等解构', link: '/03CSAdv/9-Ascend等解构.md' },
+            { text: 'OpenFoam 解构', link: '/03CSAdv/91-OpenFoam解构.md' }
           ]
         },
         {
@@ -60,15 +60,15 @@ export default defineConfig({
             { text: 'VSCode 和 Git', link: '/91Tools/vscode_git.md' },
             { text: 'CoolProp', link: '/91Tools/CoolProp.md' },
             { text: 'CSV_jl_use', link: '/91Tools/CSV_jl_use.md' },
-            { text: 'ssh-git 实操', link: '/91Tools/3-ssh-git 实操.md' }
+            { text: 'ssh-git 实操', link: '/91Tools/3-ssh-git实操.md' }
           ]
         },
         {
           text: '工作流',
           collapsed: true,
           items: [
-            { text: '简介', link: '/92Workflow/julia 的安装.md' },
-            { text: 'julia 的安装', link: '/92Workflow/julia 的安装.md' },
+            { text: '简介', link: '/92Workflow/julia的安装.md' },
+            { text: 'julia 的安装', link: '/92Workflow/julia的安装.md' },
             { text: 'REPL-of-Julia', link: '/92Workflow/REPL-of-Julia.md' },
             { text: 'julia_change_pkgserve', link: '/92Workflow/julia_change_pkgserve.md' },
             { text: 'gitworkflow', link: '/92Workflow/gitworkflow.md' },
@@ -81,14 +81,14 @@ export default defineConfig({
           text: 'go-zero 教程',
           collapsed: true,
           items: [
-            { text: '简介', link: '/tutorial/01-docker-compose 环境准备.md' },
-            { text: 'docker-compose 环境准备', link: '/tutorial/01-docker-compose 环境准备.md' },
-            { text: 'emqx 消息服务器准备', link: '/tutorial/02-emqx 消息服务器准备.md' },
-            { text: 'mysql 数据库准备', link: '/tutorial/03-mysql 数据库准备.md' },
-            { text: 'go-zero 环境准备', link: '/tutorial/04-go-zero 环境准备.md' },
-            { text: 'gateway 设置', link: '/tutorial/05-gateway 设置.md' },
-            { text: 'goctl 生成 api 服务', link: '/tutorial/06-goctl 生成 api 服务.md' },
-            { text: 'goctl 处理数据库模型', link: '/tutorial/07-goctl 处理数据库模型.md' }
+            { text: '简介', link: '/tutorial/01-docker-compose环境准备.md' },
+            { text: 'docker-compose 环境准备', link: '/tutorial/01-docker-compose环境准备.md' },
+            { text: 'emqx 消息服务器准备', link: '/tutorial/02-emqx消息服务器准备.md' },
+            { text: 'mysql 数据库准备', link: '/tutorial/03-mysql数据库准备.md' },
+            { text: 'go-zero 环境准备', link: '/tutorial/04-go-zero环境准备.md' },
+            { text: 'gateway 设置', link: '/tutorial/05-gateway设置.md' },
+            { text: 'goctl 生成 api 服务', link: '/tutorial/06-goctl生成api服务.md' },
+            { text: 'goctl 处理数据库模型', link: '/tutorial/07-goctl处理数据库模型.md' }
           ]
         }
       ]
