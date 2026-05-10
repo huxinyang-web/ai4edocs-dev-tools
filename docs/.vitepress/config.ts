@@ -34,7 +34,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/docs/': [
+      '/': [
         {
           text: 'CS 进阶',
           collapsed: false,
