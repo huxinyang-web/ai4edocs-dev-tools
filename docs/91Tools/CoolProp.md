@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     [CoolProp](http://www.coolprop.org/index.html)为开源物性包。
@@ -78,3 +80,5 @@ using Unitful: °C, Pa
 PropsSI("P", "T", 100°C, "Q", 0.0, "Water")
 101417.99665788244 Pa
 ```
+
+:::

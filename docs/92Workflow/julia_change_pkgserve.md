@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 1. 打开julia的安装路径，找到文件夹 julia-1.x.x(如1.6.1) 如图
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/303b28feddd74bbb97ea3ab07dd9183c.png)
 2. 进入该文件夹找到etc

@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ## 下载网址
 
 搜索[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)。  
@@ -114,3 +116,6 @@
 ![Julia终端设置](/assets/image/92Workflow/14.png)
 
 注：终端界面的图标自己找一个，如果懒着找，就接着使用Powershell的也行。
+
+:::
+:::
